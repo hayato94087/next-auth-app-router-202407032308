@@ -1,4 +1,5 @@
 import { type FC } from "react";
+
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -8,14 +9,13 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
- } from "@/components/ui/alert-dialog";
-
+} from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
 
 const Home: FC = () => {
   return (
     <main>
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex h-screen items-center justify-center">
         <div className="flex flex-col items-center">
           <h1 className="text-2xl font-bold">Hello World</h1>
           <div className="h-4" />
@@ -45,6 +45,6 @@ const HelloWorldButton = () => {
       </AlertDialogContent>
     </AlertDialog>
   );
- };
+};
 
 export default Home;
